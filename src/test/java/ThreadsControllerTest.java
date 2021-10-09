@@ -96,7 +96,6 @@ public class ThreadsControllerTest {
     @Test
     @Order(4)
     public void whenTheKeyPressedIsDown() {
-    	   	
         TestThreadsController.start();
         
         KeyEvent key_down = new KeyEvent(TestWindow, KeyEvent.KEY_PRESSED, System.currentTimeMillis(), 0, KeyEvent.VK_DOWN, 'D');
